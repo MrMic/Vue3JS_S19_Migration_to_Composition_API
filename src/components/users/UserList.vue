@@ -30,6 +30,7 @@ import UserItem from './UserItem.vue';
 
 import { ref, computed, watch, defineProps, defineEmits } from 'vue';
 
+// ___________________________ PROPS / EMITS ___________________________
 const props = defineProps(['users']);
 defineEmits(['list-projects']);
 
